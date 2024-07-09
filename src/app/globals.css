@@ -24,10 +24,24 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.first-section{
+  background-image: url("https://www.intract.io/assets/intract-academy-background-5547a705.png");
+  background-size: cover;
+  background-position: center;
+  height: 45rem;
+}
+
+.card-comp{
+  transform: translate(-50%, 140%);
 }
